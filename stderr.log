@@ -1,0 +1,221 @@
+Error executing query: Error: ER_BAD_NULL_ERROR: Column 'usertype' cannot be null
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:161:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sqlMessage: "Column 'usertype' cannot be null",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO additional_details (email, usertype, business_status, region, category, sucategory, exp_budget, avg_budget, start_date, goal, marketing_platform, website, subscription) values ('sanketmali5585@gmail.com', NULL, NULL, NULL, 'Advocacy', 'Case advocacy,Paid independent advocacy', 500, '70', '2024-03-08', 'Branding', '', NULL, 'Free Trial')"
+}
+Error executing query: Error: ER_BAD_NULL_ERROR: Column 'usertype' cannot be null
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:161:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sqlMessage: "Column 'usertype' cannot be null",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO additional_details (email, usertype, business_status, region, category, sucategory, exp_budget, avg_budget, start_date, goal, marketing_platform, website, subscription) values ('sanketmali5585@gmail.com', NULL, NULL, NULL, 'Advocacy', 'Case advocacy,Paid independent advocacy', 500, '70', '2024-03-08', 'Branding', 'Google Ads,Amazon,Youtube', NULL, 'Free Trial')"
+}
+Error executing query: Error: ER_BAD_NULL_ERROR: Column 'usertype' cannot be null
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:161:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sqlMessage: "Column 'usertype' cannot be null",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO additional_details (email, usertype, business_status, region, category, sucategory, exp_budget, avg_budget, start_date, goal, marketing_platform, website, subscription) values ('sanketmali5585@gmail.com', NULL, NULL, NULL, 'Attorneys & Legal Services', 'Contract lawyer,Intellectual property lawyer,Family law,Personal injury lawyer', 2500, '3000', '2024-03-08', 'Branding', 'Google Ads,Amazon,Youtube,Not Sure,Flipkart', NULL, 'Free Trial')"
+}
+Error executing query: Error: ER_BAD_NULL_ERROR: Column 'usertype' cannot be null
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:161:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sqlMessage: "Column 'usertype' cannot be null",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO additional_details (email, usertype, business_status, region, category, sucategory, exp_budget, avg_budget, start_date, goal, marketing_platform, website, subscription) values ('sanketmali5585@gmail.com', NULL, NULL, NULL, 'Attorneys & Legal Services', 'Contract lawyer,Intellectual property lawyer,Family law,Personal injury lawyer', 2500, '3000', '2024-03-08', 'Branding', 'Google Ads,Amazon,Youtube,Not Sure,Flipkart', NULL, 'Free Trial')"
+}
+Error executing query: Error: ER_BAD_NULL_ERROR: Column 'usertype' cannot be null
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:161:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sqlMessage: "Column 'usertype' cannot be null",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO additional_details (email, usertype, business_status, region, category, sucategory, exp_budget, avg_budget, start_date, goal, marketing_platform, website, subscription) values ('sanketmali5585@gmail.com', NULL, NULL, NULL, 'Attorneys & Legal Services', 'Contract lawyer,Intellectual property lawyer,Family law,Personal injury lawyer', 2500, '3000', '2024-03-08', 'Branding,Branding,Branding+Conversion', 'Google Ads,Amazon,Youtube,Not Sure,Flipkart,Google Ads,Amazon,Flipkart,Not Sure,Youtube', NULL, 'Free Trial')"
+}
+Error executing query: Error: ER_BAD_NULL_ERROR: Column 'usertype' cannot be null
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:161:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sqlMessage: "Column 'usertype' cannot be null",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO additional_details (email, usertype, business_status, region, category, sucategory, exp_budget, avg_budget, start_date, goal, marketing_platform, website, subscription) values ('sanketmali5585@gmail.com', NULL, NULL, NULL, 'Attorneys & Legal Services', 'Contract lawyer,Intellectual property lawyer,Family law,Personal injury lawyer', 2500, '3000', '2024-03-08', 'Branding,Branding,Branding+Conversion,Conversion,Branding', 'Google Ads,Amazon,Youtube,Not Sure,Flipkart,Google Ads,Amazon,Flipkart,Not Sure,Youtube,Google Ads,Amazon,Flipkart,Youtube,Not Sure', NULL, 'Free Trial')"
+}
+Error executing query: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND `month` IN ('January')' at line 1
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:270:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND `month` IN ('January')' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM mastersheet WHERE `category` = 'Animals & Pets' AND `subcategory` IN () AND `month` IN ('January')"
+}
+Error executing query: Error: ER_DUP_ENTRY: Duplicate entry 'zgdic7rlm@mozmail.com' for key 'PRIMARY'
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at Query.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:118:13)
+    at Query.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry 'zgdic7rlm@mozmail.com' for key 'PRIMARY'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO user (username, email, password, verify_status) VALUES ('Mustafa', 'zgdic7rlm@mozmail.com', 'wxNeXw>3XjU?^gZ', 0)"
+}
+Error executing query: Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect double value: '' for column `rnconfi_wp640`.`additional_details`.`avg_budget` at row 1
+    at Sequence._packetToError (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    --------------------
+    at Pool.query (/home2/rnconfi/nodevenv/public_html/confiback_final/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at IncomingMessage.<anonymous> (/home2/rnconfi/public_html/confiback_final/index.js:163:9)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD',
+  errno: 1366,
+  sqlMessage: "Incorrect double value: '' for column `rnconfi_wp640`.`additional_details`.`avg_budget` at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql: "INSERT INTO additional_details (email, usertype, business_status, region, category, sucategory, exp_budget, avg_budget, start_date, goal, marketing_platform, website, subscription) values ('mustafakoool@gmail.com', 'individual', 'launching', 'Albania', 'Attorneys & Legal Services', 'Intellectual property lawyer', 2500, '', '2024-03-27', 'Conversion,Branding', 'Amazon,Google Ads,Youtube', '', 'Free Trial')"
+}
